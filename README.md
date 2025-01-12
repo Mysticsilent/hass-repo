@@ -3,7 +3,10 @@ Home assistant custom integration for getting the latest XRP-USD transaction fro
 
 ### Install using HACS (recommended)
 If you do not have HACS installed yet visit https://hacs.xyz for installation instructions.
-In HACS go to the Integrations section hit the big + at the bottom right and search for **xrp_trade_monitor**.
+1. In HACS click the three dots in the top right corner and click "Custom repositories".
+2. Add the repository address "https://github.com/Mysticsilent/xrp_trade_monitor" and choose type to "Integration".
+3. Close the repository screen.
+4. Search for "xrp_trade_monitor" and choose Download.
 
 ### Install manually
 Clone or copy this repository and copy the folder 'custom_components/xrp_trade_monitor' into '<homeassistant config>/custom_components/xrp_trade_monitor'
