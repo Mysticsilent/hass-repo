@@ -49,7 +49,7 @@ class XrpTradeSensor(Entity):
                 self._state = float(last_trade['qty'])  # Alleen de hoeveelheid (qty) in XRP
                 self._attributes = {
                     'price': float(last_trade['price']),  # Prijs van de transactie
-                    'currency': 'XRP'
+                    'currency': 'USD'
                 }
             else:
                 self._state = None
