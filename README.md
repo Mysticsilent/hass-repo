@@ -43,3 +43,5 @@ To test the automation, go to developer tools. Set manually set a value bigger t
           sound: "default"
   mode: single
 ```
+
+![WhatsApp Image 2025-01-12 at 02 04 06_c3acf583](https://github.com/user-attachments/assets/9555ba7c-2974-42cd-83f7-d47b07feadca)
