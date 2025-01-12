@@ -1,11 +1,13 @@
 {
   "domain": "xrp_trade_monitor",
   "name": "XRP Trade Monitor",
-  "codeowners": ["@mysticsilent"],
+  "codeowners": ["mysticsilent"],
   "dependencies": [],
   "documentation": "https://github.com/Mysticsilent/xrp_trade_monitor",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/mysticsilent/xrp_trade_monitor/issues",
   "requirements": [],
+  "config_flow": true,
   "version": "1.0.0"
 }
