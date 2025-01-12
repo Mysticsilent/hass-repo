@@ -3,8 +3,9 @@
   "name": "XRP Trade Monitor",
   "codeowners": ["@mysticsilent"],
   "dependencies": [],
-  "documentation": "https://github.com/Mysticsilent/hass-repo/custom_components/xrp_trade_monitor",
+  "documentation": "https://github.com/Mysticsilent/xrp_trade_monitor",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
-  "requirements": []
+  "requirements": [],
+  "version": "1.0.0"
 }
