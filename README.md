@@ -12,7 +12,8 @@ If you do not have HACS installed yet visit https://hacs.xyz for installation in
 Clone or copy this repository and copy the folder 'custom_components/xrp_trade_monitor' into '<homeassistant config>/custom_components/xrp_trade_monitor'
 
 ### Configuration
-Add a sensor to configuration.yaml
+1. Add a sensor to configuration.yaml
+2. Reboot homeassitant afterwards.
 
 ``` yaml
 sensor:
