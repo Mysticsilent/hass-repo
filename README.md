@@ -8,5 +8,33 @@ In HACS go to the Integrations section hit the big + at the bottom right and sea
 ### Install manually
 Clone or copy this repository and copy the folder 'custom_components/xrp_trade_monitor' into '<homeassistant config>/custom_components/xrp_trade_monitor'
 
-## Configuration
-To be documented
+### Configuration
+Add a sensor to configuration.yaml
+
+``` yaml
+sensor:
+  - platform: xrp_trade_monitor
+```
+
+### Configure a automation 
+
+``` yaml
+- alias: Notify bij grote XRP trade
+  id: 'notify_bij_grote_xrp_trade'
+  trigger:
+    - platform: numeric_state
+      entity_id: sensor.xrp_trade_volume
+      above: 100000000
+  condition: []
+  action:
+    - service: notify.mobile_app_iphone
+      data:
+        title: "🚨 Grote XRP Trade Gedetecteerd"
+        message: >
+          Er is een XRP-transactie uitgevoerd met een handelsvolume van meer dan 100M XRP!
+        data:
+          push:
+          badge: 0
+          sound: "default"
+  mode: single
+```
