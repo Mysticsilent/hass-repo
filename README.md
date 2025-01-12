@@ -19,7 +19,9 @@ sensor:
   - platform: xrp_trade_monitor
 ```
 
-### Configure a automation 
+### Example automation
+The automation below sends a notification to my iPhone when a trade bigger than 100M XRP has been detected.
+To test the automation, go to developer tools. Set manually set a value bigger than 100M XRP.
 
 ``` yaml
 - alias: Notify bij grote XRP trade
