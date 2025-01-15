@@ -13,7 +13,7 @@ Clone or copy this repository and copy the folder 'custom_components/xrp_trade_m
 
 ### Configuration
 1. Add a sensor to configuration.yaml
-2. Reboot homeassitant afterwards.
+2. Reboot homeassistant afterwards.
 
 ``` yaml
 sensor:
